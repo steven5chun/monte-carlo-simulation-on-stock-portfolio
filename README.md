@@ -37,18 +37,18 @@ When you multiply a **$2 \times 3$ matrix** by a **$3 \times 2$ matrix**, you mu
 
 $$
 \begin{bmatrix}
-a & b & c \\\\
+a & b & c \cr
 d & e & f
 \end{bmatrix}
 \times
 \begin{bmatrix}
-g & h \\\\
-i & j \\\\
+g & h \cr
+i & j \cr
 k & l
 \end{bmatrix}
 =
 \begin{bmatrix}
-(ag + bi + ck) & (ah + bj + cl) \\\\
+(ag + bi + ck) & (ah + bj + cl) \cr
 (dg + ei + fk) & (dh + ej + fl)
 \end{bmatrix}
 $$
@@ -61,23 +61,23 @@ Let's find the top-left element ($58$) of the resulting matrix:
 
 $$
 \begin{bmatrix}
-\mathbf{1} & \mathbf{2} & \mathbf{3} \\\\
+\mathbf{1} & \mathbf{2} & \mathbf{3} \cr
 4 & 5 & 6
 \end{bmatrix}
 \times
 \begin{bmatrix}
-\mathbf{7} & 8 \\\\
-\mathbf{9} & 10 \\\\
+\mathbf{7} & 8 \cr
+\mathbf{9} & 10 \cr
 \mathbf{11} & 12
 \end{bmatrix}
 =
 \begin{bmatrix}
-\mathbf{(1 \cdot 7 + 2 \cdot 9 + 3 \cdot 11)} & \dots \\\\
+\mathbf{(1 \cdot 7 + 2 \cdot 9 + 3 \cdot 11)} & \dots \cr
 \dots & \dots
 \end{bmatrix}
 =
 \begin{bmatrix}
-\mathbf{58} & 64 \\\\
+\mathbf{58} & 64 \cr
 139 & 154
 \end{bmatrix}
 $$
