@@ -33,7 +33,6 @@ Matrix multiplication is the most common linear algebra formula used to replace 
 
 ### 1. The Mathematical Formula
 When you multiply a **$2 \times 3$ matrix** by a **$3 \times 2$ matrix**, you multiply the elements of each **row** from the first matrix by each **column** of the second matrix, then add them up.
-
 $$
 \begin{bmatrix} 
 a & b & c \\\\ 
@@ -52,12 +51,10 @@ k & l
 \end{bmatrix}
 $$
 
-
 ---
 
 ### 2. Concrete Example with Numbers
 Let's find the top-left element (\(58\)) of the resulting matrix:
-
 $$
 \begin{bmatrix} 
 \mathbf{1} & \mathbf{2} & \mathbf{3} \\ 
