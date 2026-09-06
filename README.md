@@ -35,26 +35,27 @@ Matrix multiplication is the most common linear algebra formula used to replace 
 When you multiply a **$2 \times 3$ matrix** by a **$3 \times 2$ matrix**, you multiply the elements of each **row** from the first matrix by each **column** of the second matrix, then add them up.
 $$
 \begin{bmatrix} 
-a & b & c \\\\ 
-d & e & f 
+a & b & c \\
+d & e & f
 \end{bmatrix} 
 \times 
 \begin{bmatrix} 
-g & h \\\\ 
-i & j \\\\ 
-k & l 
+g & h \\
+i & j \\
+k & l
 \end{bmatrix} 
 = 
 \begin{bmatrix} 
-(ag + bi + ck) & (ah + bj + cl) \\\\ 
-(dg + ei + fk) & (dh + ej + fl) 
+(ag + bi + ck) & (ah + bj + cl) \\
+(dg + ei + fk) & (dh + ej + fl)
 \end{bmatrix}
 $$
 
 ---
 
 ### 2. Concrete Example with Numbers
-Let's find the top-left element (\(58\)) of the resulting matrix:
+Let's find the top-left element ($58$) of the resulting matrix:
+
 $$
 \begin{bmatrix} 
 \mathbf{1} & \mathbf{2} & \mathbf{3} \\ 
