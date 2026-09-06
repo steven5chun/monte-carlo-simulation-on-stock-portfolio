@@ -32,26 +32,12 @@ Matrix multiplication is the most common linear algebra formula used to replace 
 ---
 
 ### 1. The Mathematical Formula
-When you multiply a **\(2 \times 3\) matrix** by a **\(3 \times 2\) matrix**, you multiply the elements of each **row** from the first matrix by each **column** of the second matrix, then add them up.
+When you multiply a **$2 \times 3$ matrix** by a **$3 \times 2$ matrix**, you multiply the elements of each **row** from the first matrix by each **column** of the second matrix, then add them up.
 
-$$
-\begin{bmatrix} 
-a & b & c \\\\ 
-d & e & f 
-\end{bmatrix} 
-\times 
-\begin{bmatrix} 
-g & h \\\\ 
-i & j \\\\ 
-k & l 
-\end{bmatrix} 
-= 
-\begin{bmatrix} 
-(ag + bi + ck) & (ah + bj + cl) \\\\ 
-(dg + ei + fk) & (dh + ej + fl) 
-\end{bmatrix}
-$$
+```math
+\(\begin{bmatrix}  a & b & c \\  d & e & f  \end{bmatrix}  \times  \begin{bmatrix}  g & h \\  i & j \\  k & l  \end{bmatrix}  =  \begin{bmatrix}  (ag + bi + ck) & (ah + bj + cl) \\  (dg + ei + fk) & (dh + ej + fl)  \end{bmatrix} \%\%\)MAGIT_PARSER_PROTECT%%```
 
+```
 ---
 
 ### 2. Concrete Example with Numbers
