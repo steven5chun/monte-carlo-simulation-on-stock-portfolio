@@ -35,23 +35,7 @@ Matrix multiplication is the most common linear algebra formula used to replace 
 
 When you multiply a **$2 \times 3$ matrix** by a **$3 \times 2$ matrix**, you multiply the elements of each **row** from the first matrix by each **column** of the second matrix, then add them up.
 
-$$
-\left[\begin{array}{ccc}
-a & b & c \\
-d & e & f
-\end{array}\right]
-\times
-\left[\begin{array}{cc}
-g & h \\
-i & j \\
-k & l
-\end{array}\right]
-=
-\left[\begin{array}{cc}
-(ag + bi + ck) & (ah + bj + cl) \\
-(dg + ei + fk) & (dh + ej + fl)
-\end{array}\right]
-$$
+$$ \left[\begin{array}{ccc} a & b & c \\ d & e & f \end{array}\right] \times \left[\begin{array}{cc} g & h \\ i & j \\ k & l \end{array}\right] = \left[\begin{array}{cc} (ag + bi + ck) & (ah + bj + cl) \\ (dg + ei + fk) & (dh + ej + fl) \end{array}\right] $$
 
 ---
 
@@ -59,28 +43,7 @@ $$
 
 Let's find the top-left element ($58$) of the resulting matrix:
 
-$$
-\left[\begin{array}{ccc}
-\mathbf{1} & \mathbf{2} & \mathbf{3} \\
-4 & 5 & 6
-\end{array}\right]
-\times
-\left[\begin{array}{cc}
-\mathbf{7} & 8 \\
-\mathbf{9} & 10 \\
-\mathbf{11} & 12
-\end{array}\right]
-=
-\left[\begin{array}{cc}
-\mathbf{(1 \cdot 7 + 2 \cdot 9 + 3 \cdot 11)} & \dots \\
-\dots & \dots
-\end{array}\right]
-=
-\left[\begin{array}{cc}
-\mathbf{58} & 64 \\
-139 & 154
-\end{array}\right]
-$$
+$$ \left[\begin{array}{ccc} \mathbf{1} & \mathbf{2} & \mathbf{3} \\ 4 & 5 & 6 \end{array}\right] \times \left[\begin{array}{cc} \mathbf{7} & 8 \\ \mathbf{9} & 10 \\ \mathbf{11} & 12 \end{array}\right] = \left[\begin{array}{cc} \mathbf{(1 \cdot 7 + 2 \cdot 9 + 3 \cdot 11)} & \dots \\ \dots & \dots \end{array}\right] = \left[\begin{array}{cc} \mathbf{58} & 64 \\ 139 & 154 \end{array}\right] $$
 
 
 **The Math:**
