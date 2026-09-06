@@ -1,4 +1,4 @@
-## Monte Carlo Simulation of a Stock Portfolio 
+## Monte Carlo Simulation of a Stock Portfolio
 
 ## Install Jupyter notebook (mac os)
 
@@ -27,7 +27,7 @@ Ultimately, shifting from iterative loops to matrix operations transforms sluggi
 
 ## Matrix Multiplication Formula Example
 
-Matrix multiplication is the most common linear algebra formula used to replace slow, nested `for` loops in modern computing. 
+Matrix multiplication is the most common linear algebra formula used to replace slow, nested `for` loops in modern computing.
 
 ---
 
@@ -36,19 +36,19 @@ Matrix multiplication is the most common linear algebra formula used to replace 
 When you multiply a **$2 \times 3$ matrix** by a **$3 \times 2$ matrix**, you multiply the elements of each **row** from the first matrix by each **column** of the second matrix, then add them up.
 
 $$
-\begin{bmatrix} 
-a & b & c \\
+\begin{bmatrix}
+a & b & c \\\\
 d & e & f
-\end{bmatrix} 
-\times 
-\begin{bmatrix} 
-g & h \\
-i & j \\
+\end{bmatrix}
+\times
+\begin{bmatrix}
+g & h \\\\
+i & j \\\\
 k & l
-\end{bmatrix} 
-= 
-\begin{bmatrix} 
-(ag + bi + ck) & (ah + bj + cl) \\
+\end{bmatrix}
+=
+\begin{bmatrix}
+(ag + bi + ck) & (ah + bj + cl) \\\\
 (dg + ei + fk) & (dh + ej + fl)
 \end{bmatrix}
 $$
@@ -60,30 +60,30 @@ $$
 Let's find the top-left element ($58$) of the resulting matrix:
 
 $$
-\begin{bmatrix} 
-\mathbf{1} & \mathbf{2} & \mathbf{3} \\ 
-4 & 5 & 6 
-\end{bmatrix} 
-\times 
-\begin{bmatrix} 
-\mathbf{7} & 8 \\ 
-\mathbf{9} & 10 \\ 
-\mathbf{11} & 12 
-\end{bmatrix} 
-= 
-\begin{bmatrix} 
-\mathbf{(1 \cdot 7 + 2 \cdot 9 + 3 \cdot 11)} & \dots \\ 
-\dots & \dots 
-\end{bmatrix} 
-= 
-\begin{bmatrix} 
-\mathbf{58} & 64 \\ 
-139 & 154 
+\begin{bmatrix}
+\mathbf{1} & \mathbf{2} & \mathbf{3} \\\\
+4 & 5 & 6
+\end{bmatrix}
+\times
+\begin{bmatrix}
+\mathbf{7} & 8 \\\\
+\mathbf{9} & 10 \\\\
+\mathbf{11} & 12
+\end{bmatrix}
+=
+\begin{bmatrix}
+\mathbf{(1 \cdot 7 + 2 \cdot 9 + 3 \cdot 11)} & \dots \\\\
+\dots & \dots
+\end{bmatrix}
+=
+\begin{bmatrix}
+\mathbf{58} & 64 \\\\
+139 & 154
 \end{bmatrix}
 $$
 
 
-**The Math:** 
+**The Math:**
 
 $$
 (1 \times 7) + (2 \times 9) + (3 \times 11) = 7 + 18 + 33 = \mathbf{58}
