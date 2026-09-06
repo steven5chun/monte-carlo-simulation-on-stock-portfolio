@@ -32,7 +32,9 @@ Matrix multiplication is the most common linear algebra formula used to replace 
 ---
 
 ### 1. The Mathematical Formula
+
 When you multiply a **$2 \times 3$ matrix** by a **$3 \times 2$ matrix**, you multiply the elements of each **row** from the first matrix by each **column** of the second matrix, then add them up.
+
 $$
 \begin{bmatrix} 
 a & b & c \\
@@ -54,6 +56,7 @@ $$
 ---
 
 ### 2. Concrete Example with Numbers
+
 Let's find the top-left element ($58$) of the resulting matrix:
 
 $$
@@ -92,6 +95,7 @@ $$
 ### 3. Code Comparison
 
 #### The Slow Way: Nested `for` Loops
+
 Manually performing this math requires **three nested loops**, creating a slow $O(N^3)$ operation.
 ```python
 for i in range(rows_A):
@@ -101,6 +105,7 @@ for i in range(rows_A):
 ```
 
 #### The Fast Way: Vectorized Matrix Equation
+
 Using matrix formulas replaces all loops with a single low-level optimized command.
 ```python
 result = A @ B  # Or np.dot(A, B)
