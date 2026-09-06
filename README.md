@@ -36,18 +36,18 @@ When you multiply a **\(2 \times 3\) matrix** by a **\(3 \times 2\) matrix**, yo
 
 $$
 \begin{bmatrix} 
-a & b & c \\ 
+a & b & c \\\\ 
 d & e & f 
 \end{bmatrix} 
 \times 
 \begin{bmatrix} 
-g & h \\ 
-i & j \\ 
+g & h \\\\ 
+i & j \\\\ 
 k & l 
 \end{bmatrix} 
 = 
 \begin{bmatrix} 
-(ag + bi + ck) & (ah + bj + cl) \\ 
+(ag + bi + ck) & (ah + bj + cl) \\\\ 
 (dg + ei + fk) & (dh + ej + fl) 
 \end{bmatrix}
 $$
