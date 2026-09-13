@@ -76,7 +76,9 @@ result = A @ B  # Or np.dot(A, B)
 
 
 ## How to code Matrix in Python
-[How to code matrix](https://www.geeksforgeeks.org/python/python-matrix/)
+- [How to code matrix](https://www.geeksforgeeks.org/python/python-matrix/)
+- [matrix tutorial](https://www.kaggle.com/code/matinmahmoudi/complete-guide-to-matrix-operations-a-to-z)
+- [matrix.ipynb](./matrix.ipynb)
 
 ## Analysis stock portfolio by python
 - [stock-portfolio.ipynb](./stock-portfolo.ipynb)
