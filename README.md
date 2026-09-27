@@ -91,6 +91,7 @@ result = A @ B  # Or np.dot(A, B)
 - [portfolio analysis report](./portfolio-report.html)
 
 ## Reference
+- [How to use python to plot graph](https://www.w3schools.com/PYTHON/matplotlib_plotting.asp)
 - [Monte Carlo Simulation of a Stock Portfolio with Python](https://www.youtube.com/watch?v=6-dhdMDiYWQ)
 - [Value at Risk (VaR) In Python: Monte Carlo Method](https://www.youtube.com/watch?v=X8aNFXJEENs)
 - [Portfolio Analysis in Python with QuantStats](https://www.youtube.com/watch?v=NqnL3KB-Jrc)
